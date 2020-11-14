@@ -8,8 +8,10 @@ import NewAddressForm from './components/NewAddressForm';
 function App() {
 	return (
 		<div>
+			{/* Header */}
 			<Header />
 			<main>
+				{/* first part text */}
 				<Container fixed>
 					<Grid container spacing={4}>
 						<Grid item xs={8}>
@@ -22,6 +24,7 @@ function App() {
 							</div>
 						</Grid>
 					</Grid>
+					{/* Address & order summary */}
 					<Grid container spacing={4}>
 						<Grid item md={4}>
 							<CardDetailed></CardDetailed>
@@ -33,6 +36,7 @@ function App() {
 							<OrderSummary></OrderSummary>
 						</Grid>
 					</Grid>
+					{/* New Address form */}
 					<Grid container>
 						<Grid item xs={8}>
 							<NewAddressForm />
@@ -40,6 +44,7 @@ function App() {
 					</Grid>
 				</Container>
 			</main>
+			{/* Footer */}
 			<Footer />
 		</div>
 	);
