@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.2105a833.chunk.css",
-    "main.js": "/static/js/main.1b63d224.chunk.js",
-    "main.js.map": "/static/js/main.1b63d224.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d7de98ed.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d7de98ed.js.map",
-    "static/js/2.01da4af2.chunk.js": "/static/js/2.01da4af2.chunk.js",
-    "static/js/2.01da4af2.chunk.js.map": "/static/js/2.01da4af2.chunk.js.map",
-    "static/js/3.5602acc8.chunk.js": "/static/js/3.5602acc8.chunk.js",
-    "static/js/3.5602acc8.chunk.js.map": "/static/js/3.5602acc8.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.2105a833.chunk.css.map": "/static/css/main.2105a833.chunk.css.map",
-    "static/js/2.01da4af2.chunk.js.LICENSE.txt": "/static/js/2.01da4af2.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/static/media/icomoon.700885bb.ttf",
-    "static/media/downloadappleApp.70b83ec2.svg": "/static/media/downloadappleApp.70b83ec2.svg",
-    "static/media/downloadplaystore.4cd8cd2c.svg": "/static/media/downloadplaystore.4cd8cd2c.svg"
+    "main.css": "/Zumar-task/static/css/main.6a2165cd.chunk.css",
+    "main.js": "/Zumar-task/static/js/main.1b63d224.chunk.js",
+    "main.js.map": "/Zumar-task/static/js/main.1b63d224.chunk.js.map",
+    "runtime-main.js": "/Zumar-task/static/js/runtime-main.6288e47a.js",
+    "runtime-main.js.map": "/Zumar-task/static/js/runtime-main.6288e47a.js.map",
+    "static/js/2.01da4af2.chunk.js": "/Zumar-task/static/js/2.01da4af2.chunk.js",
+    "static/js/2.01da4af2.chunk.js.map": "/Zumar-task/static/js/2.01da4af2.chunk.js.map",
+    "static/js/3.5602acc8.chunk.js": "/Zumar-task/static/js/3.5602acc8.chunk.js",
+    "static/js/3.5602acc8.chunk.js.map": "/Zumar-task/static/js/3.5602acc8.chunk.js.map",
+    "index.html": "/Zumar-task/index.html",
+    "static/css/main.6a2165cd.chunk.css.map": "/Zumar-task/static/css/main.6a2165cd.chunk.css.map",
+    "static/js/2.01da4af2.chunk.js.LICENSE.txt": "/Zumar-task/static/js/2.01da4af2.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/Zumar-task/static/media/icomoon.700885bb.ttf",
+    "static/media/downloadappleApp.70b83ec2.svg": "/Zumar-task/static/media/downloadappleApp.70b83ec2.svg",
+    "static/media/downloadplaystore.4cd8cd2c.svg": "/Zumar-task/static/media/downloadplaystore.4cd8cd2c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7de98ed.js",
+    "static/js/runtime-main.6288e47a.js",
     "static/js/2.01da4af2.chunk.js",
-    "static/css/main.2105a833.chunk.css",
+    "static/css/main.6a2165cd.chunk.css",
     "static/js/main.1b63d224.chunk.js"
   ]
 }
