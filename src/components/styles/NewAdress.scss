@@ -1,0 +1,64 @@
+.new-address_wrapper {
+	margin-top: 60px;
+}
+.btn-large.MuiButton-text {
+	padding: 14px 40px;
+	border-radius: 10px;
+	max-height: 48px;
+
+	&.Mui-disabled {
+		background-color: rgba(56, 179, 73, 0.2) !important;
+		color: #38b349 !important;
+	}
+}
+
+form {
+	margin-top: 40px;
+	.MuiFormControl-root {
+		// min-width: 295px !important;
+		width: 100%;
+	}
+	.MuiTypography-root.MuiFormControlLabel-label {
+		font-size: 12px;
+	}
+	.MuiInputLabel-outlined {
+		transform: translate(14px, 16px) scale(1);
+	}
+	.MuiRadio-colorPrimary.Mui-checked {
+		color: #38b349;
+	}
+	.btn-large.MuiButton-text {
+		margin-left: 20px;
+	}
+	.MuiFormControlLabel-root {
+		margin-right: 30px;
+	}
+}
+.verification-section {
+	margin-top: 60px;
+	p {
+		margin-bottom: 35px;
+	}
+}
+.check-text {
+	display: flex;
+	align-items: center;
+	margin-bottom: 18px;
+	span {
+		background-color: #0f3043;
+		width: 24px;
+		height: 24px;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		font-size: 8px;
+		margin-right: 18px;
+	}
+	p {
+		font-weight: 500;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}

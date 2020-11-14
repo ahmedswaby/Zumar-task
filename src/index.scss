@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'SF Font';
+	src: url('./static/fonts/FontsFree-Net-SFProText-Regular.ttf')
+		format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+	font-family: 'icomoon';
+	src: url('./static/fonts/icomoon.eot?leytfi');
+	src: url('./static/fonts/icomoon.eot?leytfi#iefix')
+			format('embedded-opentype'),
+		url('./static/fonts/icomoon.ttf?leytfi') format('truetype'),
+		url('./static/fonts/icomoon.woff?leytfi') format('woff'),
+		url('./static/fonts/icomoon.svg?leytfi#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bag:before {
+	content: '\e900';
+}
+.icon-filter:before {
+	content: '\e901';
+	color: #999cad;
+}
+.icon-check:before {
+	content: '\e902';
+	line-height: 0;
+}
+.icon-line:before {
+	content: '\e904';
+}
+body {
+	margin: 0;
+	font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+main {
+	margin-bottom: 120px;
+}
+.MuiTypography-colorPrimary {
+	color: #000 !important;
+}
+.content {
+	margin-top: 65px;
+}
+p {
+	color: #4f4f4f;
+	font-size: 16px;
+	line-height: 22px;
+}
+h1 {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 72px;
+	margin-bottom: 18px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 32px;
+}
+h3 {
+	font-size: 20px;
+	line-height: 28px;
+}
+h3 {
+	font-size: 16px;
+	line-height: 22px;
+}
+.yellow-color {
+	background-color: #f9a439 !important;
+	color: #fff !important;
+}
+.green-color {
+	background-color: #38b349 !important;
+	color: #fff !important;
+}
+
+// input styles
+.MuiInputBase-root.MuiInputBase-formControl {
+	border-radius: 10px;
+	max-height: 48px;
+}
+.btn-large.MuiButton-text {
+	padding: 14px 40px;
+	border-radius: 10px;
+
+	&.Mui-disabled {
+		background-color: rgba(56, 179, 73, 0.2) !important;
+		color: #38b349 !important;
+	}
+}

@@ -1,0 +1,48 @@
+.card-wrapper {
+	background-color: #ecf1f4;
+	border-radius: 20px;
+	padding: 20px;
+	h2 {
+		margin-top: 0;
+	}
+	p {
+		margin-bottom: 5px;
+		font-size: 14px;
+		line-height: 17px;
+		color: #000;
+		font-weight: bold;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.card-details {
+		max-width: 76%;
+		margin-bottom: 20px;
+	}
+	.card-actions {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 20px;
+		margin-top: 20px;
+		border-top: 1px dashed #38b349;
+	}
+	.MuiButton-text {
+		border-radius: 10px;
+		font-size: 16px;
+		line-height: 26px;
+		padding: 10px 20px;
+		text-transform: lowercase;
+	}
+
+	// order card
+	&.order-wrapper {
+		h2 {
+			line-height: 45px;
+		}
+		p {
+			&:not(.order-total) {
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
