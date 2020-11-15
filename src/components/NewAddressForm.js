@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 		marginBottom: theme.spacing(3.5),
 	},
 }));
-export default function NewAdressForm() {
+function NewAdressForm() {
 	const [name, setName] = React.useState('Mohammd reza');
 	const [Lastname, setLastName] = React.useState('reza');
 	const classes = useStyles();
@@ -60,8 +60,10 @@ export default function NewAdressForm() {
 							<InputLabel htmlFor='FirstName'>* First Name</InputLabel>
 							<OutlinedInput
 								value={name}
+								id='FirstName'
 								onChange={handleChange}
 								label='* First Name'
+								required
 							/>
 						</FormControl>
 					</Grid>
@@ -276,9 +278,13 @@ export default function NewAdressForm() {
 							</p>
 						</div>
 					</Grid>
-					<Button className='green-color btn-large'>Add Address</Button>
+					<Button type='submit' className='green-color btn-large'>
+						Add Address
+					</Button>
 				</Grid>
 			</form>
 		</div>
 	);
 }
+
+export default NewAdressForm;
